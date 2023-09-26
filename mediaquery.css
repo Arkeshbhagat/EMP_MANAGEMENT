@@ -1,0 +1,15 @@
+@media (max-width: 768px){
+    .admin a{
+        margin: 0;
+    }   
+    .admin .btnLogin-popup{
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+@media (max-width: 768px){
+    .wrapper{
+        display: none;
+    }
+}
