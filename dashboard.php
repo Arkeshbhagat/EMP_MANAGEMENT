@@ -65,6 +65,7 @@
 
         <nav class="navigation">
             <button><a href="eregistar.php">Add employee</a></button>
+            <button><a href="aboutus.php">About</a></button>
             <button><a href="display1.php">All employee</a></button>
             <button><a href="logout.php">logout</a></button>
         </nav>
