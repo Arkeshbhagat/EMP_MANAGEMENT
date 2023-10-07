@@ -148,10 +148,14 @@
             .navigation a{
                 position: relative;
                 font-size: 1.1em;
-                color: black !important;
+                color: black ;
                 text-decoration: none;
                 font-weight: 500;
                 margin-left: 40px;
+                transition: 0.3s;
+            }
+            .navigation a:hover{
+                color: lightgreen;
             }
             .navigation a::after{
                 content: "";

@@ -9,7 +9,7 @@
 
     $con = new mysqli($lh, $un, $ps, $db);
 
-
+    
     if($con){
         $query="SELECT * FROM emabout WHERE id=$uid";
 

@@ -53,11 +53,11 @@ if (isset($_POST['submit'])) {
 
                     if (in_array($img_ex, $allowed_ext)) {
 
-                        echo $img_ex; 
+                        echo $img_ex;
                         $new_img_name = uniqid('IMG-', true) . '.' . $img_ex;
                         echo $new_img_name;
 
-                        $path='uploads/'. $new_img_name;
+                        $path = 'uploads/' . $new_img_name;
 
                         move_uploaded_file($tmp_name, $path);
 
@@ -70,9 +70,7 @@ if (isset($_POST['submit'])) {
 
                         if ($result) {
                             header("location:display1.php");
-                        }
-                        else
-                        {
+                        } else {
                             echo "something went wrong";
                         }
 
